@@ -5,7 +5,7 @@
   */
 void print_alphabet_x10(void)
 {
-	char = "alpha";
+	char alpha;
 	int i;
 
 	while (i < 10)
