@@ -21,10 +21,18 @@ void print_alphabet(void);
 void print_alphabet_x10(void);
 
 /**
-  *int _islower(int c)- checks for lowercase
+  * _islower- checks for lowercase
  * @c: the character to check
  * Return: int
  */
 int _islower(int c);
 
+/**
+  *_isaplha - checks aplhabetic order
+  *@c: character to check
+  *Return int
+  */
+int _isalpha(int c);
+ 
+	
 #endif
