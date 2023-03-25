@@ -24,4 +24,12 @@ int _isupper(int c);
   */
 int _isdigit(int c);
 
+/**
+  *mul - multiplies two integers
+  *@a: character to be multiplied by b
+  *@b: character to be multiplied by a
+  *Return: product
+  */
+int mul(int a, int b);
+
 #endif
