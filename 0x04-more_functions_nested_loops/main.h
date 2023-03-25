@@ -17,4 +17,11 @@ int _putchar(char c);
   */
 int _isupper(int c);
 
+/**
+  *_isdigit - checks for digit btwn 0 and 9
+  *@c: character to be checked
+  *Return: 1 if true otherwise 0
+  */
+int _isdigit(int c);
+
 #endif
