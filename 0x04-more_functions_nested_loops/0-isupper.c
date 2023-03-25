@@ -8,9 +8,9 @@
 
 int _isupper(int c)
 {
-	char c;
+	int c;
 	
-	while (c = 'A', c < 'Z')
+	while (c >= 'A' && c <= 'Z')
 		return (1);
 	else
 		return (0);
