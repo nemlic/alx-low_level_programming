@@ -59,4 +59,10 @@ void print_line(int n);
   */
 void print_diagonal(int n);
 
+/**
+  *print_square - prints square
+  *size: is the size of square
+  */
+void print_square(int size);
+
 #endif
