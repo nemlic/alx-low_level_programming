@@ -47,4 +47,10 @@ void print_most_numbers(void);
   */
 void more_numbers(void);
 
+/**
+  *print_line - draws a straight line
+  *@n: number of times _ is printed
+  */
+void print_line(int n);
+
 #endif
