@@ -10,8 +10,8 @@ void print_line(int n)
 {
 	int times = n;
 
-	if (n > 0)
+	for (times = n; times > 0; times--)
 		_putchar('_');
-	_puchar('\n');
+	_putchar('\n');
 			
 }
