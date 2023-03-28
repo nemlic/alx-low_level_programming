@@ -71,4 +71,11 @@ void print_square(int size);
   */
 void print_triangle(int size);
 
+/**
+  *print_number - prints an integer
+  *@n: integer to be printed
+  *Return: 0 on success
+  */
+void print_number(int n);
+
 #endif
