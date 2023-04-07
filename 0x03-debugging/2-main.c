@@ -8,16 +8,16 @@
 
 int main(void)
 {
-        int a, b, c;
-        int largest;
+	int a, b, c;
+	int largest;
 
-        a = 1000;
-        b = 972;
-        c = 975;
+	a = 1000;
+	b = 972;
+	c = 975;
 
-        largest = largest_number(a, b, c);
+	largest = largest_number(a, b, c);
 
-        printf("%d is the largest number\n", largest);
+	printf("%d is the largest number\n", largest);
 
-        return (0);
+	return (0);
 }
