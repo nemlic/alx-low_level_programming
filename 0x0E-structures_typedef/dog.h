@@ -6,7 +6,9 @@
  *@name: dogs name
  *@age: dogs age
  *@owner: dogs owner info
- *The purpose of this structure is to identify dog types
+ *
+ *Description:The purpose of this structure is used
+ *to identify dog types
  *
  */
 
