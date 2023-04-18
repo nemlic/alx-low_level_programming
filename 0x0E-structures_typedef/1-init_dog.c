@@ -1,4 +1,5 @@
 #include "dog.h"
+#include <stdlib.h>
 
 /**
  *init_dog - initialies
@@ -10,7 +11,7 @@
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	if (d == NULL)
+	if (d == '\0')
 		d = malloc(sizeof(struct dog));
 
 	(*d).name = name;
