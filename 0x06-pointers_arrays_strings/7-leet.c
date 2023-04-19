@@ -11,13 +11,15 @@ char *leet(char *s)
 	int a[11] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
 	int i, j;
 
-	for (; s[j] != '\0'; j++)
+	for (j = 0; s[j] != '\0'; j++)
 	{
-		for (; a[i] != '\0'; i++)
+		for (i = 0; a[i] != '\0'; i++)
 		{
 			if (s[j] == a[i])
 				s[j] = b[i];
 		}
 	}
+
+	return (s);
 }
 
