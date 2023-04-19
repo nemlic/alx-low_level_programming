@@ -2,15 +2,15 @@
 
 /**
   *reverse_array - reverses content of array
-  *@n: no of elements 
+  *@n: no of elements
   *@a: integers to be reversed array
   *Return: nothing
   */
 
 void reverse_array(int *a, int n)
 {
-	int i = 0;
-	int j = 0;
+	int i;
+	int j;
 
 	for (i = 0; i < n; i++;)
 	{
