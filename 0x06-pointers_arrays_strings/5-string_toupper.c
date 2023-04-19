@@ -5,7 +5,7 @@
   *@s: input string
   *Return: pointer to char
   */
-char *string_toupper(char *)
+char *string_toupper(char *s)
 {
 	while (*s)
 		if (*s >= 'a' && *s <= 'z')
