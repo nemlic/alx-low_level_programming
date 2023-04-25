@@ -8,6 +8,6 @@
 
 int main(void)
 {
-	puts(FILE);
+	puts(_FILE_);
 	return (0);
 }
