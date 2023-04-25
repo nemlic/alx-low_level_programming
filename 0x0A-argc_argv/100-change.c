@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 
 /**
   *main - prints minimum number of coins to make change for an amount of money
@@ -8,7 +9,7 @@
   *Return: 0 on success 1 on error
   */
 
-int  main(argc, char *argv[])
+int main(argc, char *argv[])
 {
 	int num, j, result;
 	int coins[] = {25, 10, 5, 2, 1};
