@@ -8,7 +8,7 @@
   *
   *Return: 0
   */
-int main(int argrc, char **argv)
+int main(int argc, char **argv)
 {
 	int i, n, sum = 0;
 	char *flag;
