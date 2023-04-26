@@ -59,7 +59,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 			free(dog1);
 			return (NULL);
 		}
-		dog1->name = strcpy(copy_of_name, name);
+		dog1->name = _strcpy(copy_of_name, name);
 	}
 	else
 		dog1->name = NULL;
@@ -73,7 +73,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 			free(dog1);
 			return (NULL);
 		}
-		dog1->owner = strcpy(copy_of_owner, owner);
+		dog1->owner = _strcpy(copy_of_owner, owner);
 	}
 	else
 		dog1->owner = NULL;
