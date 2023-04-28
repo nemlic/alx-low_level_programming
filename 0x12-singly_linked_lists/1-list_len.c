@@ -2,7 +2,7 @@
 #include "lists.h"
 
 /**
- *list_len - number of elements 
+ *list_len - number of elements
  *@h: pointer to list_t
  *Return: no elements h
  */
@@ -17,4 +17,3 @@ size_t list_len(const list_t *h)
 	}
 	return (n);
 }
-
