@@ -3,7 +3,7 @@
 
 /**
   *free_list - frees a linked list
-  *@head - pointer to list_t
+  *@head: pointer to list_t
   *
   */
 void free_list(list_t *head)
