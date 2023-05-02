@@ -4,7 +4,7 @@
 
 /**
  *print_all - prints anything
- *@format - lists type of arguments passed
+ *@format:  lists type of arguments passed
  *
  *
  */
@@ -20,7 +20,7 @@ void print_all(const char * const format, ...)
 	{
 		while (format[i])
 		{
-			switch(format[i])
+			switch (format[i])
 			{
 				case 'c':
 					printf("%s%c", sep, va_arg(list, int));
