@@ -37,7 +37,7 @@ void print_all(const char * const format, ...)
 					if (!str)
 						str = "(nil)";
 					printf("%s%s", sep, va_arg(list, char *));
-				break:
+				break;
 				default:
 					i++;
 					continue;
@@ -47,5 +47,5 @@ void print_all(const char * const format, ...)
 		}
 	}
 	printf("\n");
-	va-_end(list);
+	va_end(list);
 }
