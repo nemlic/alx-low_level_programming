@@ -5,6 +5,7 @@
   *@size: size of the array
   *@array:array to be searched
   *@cmp: pointer to function
+  *Return:  first element for which the cmp function does not return 
   */
 
 int int_index(int *array, int size, int (*cmp)(int))
