@@ -3,8 +3,8 @@
 
 /**
   *main - prints own opcodes
-  *argc: argument count
-  *argv: array of arguments
+  *@argc: argument count
+  *@argv: array of arguments
   *Return: 0 on success
   */
 
@@ -31,10 +31,12 @@ int main(int argc, char *argv[])
 
 	for (i = 0; i < bytes; i++)
 	{
+		if (i == bytes - 1)
+		{
+		printf("%02hhx\n", arr[i]);
+		break;
+		}
 		printf("%02x", arr[i]);
-		if (i == bytes -1)
-		continue;
-		printf(" ");
 	}
 	return (0);
 }
