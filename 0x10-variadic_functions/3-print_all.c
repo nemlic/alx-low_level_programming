@@ -33,8 +33,19 @@ void print_all(const char * const format, ...)
 					printf("%s%f", sep, va_arg(list, double));
 					break;
 				case 's':
-					printf("%s%s", sep, va_arg(
+					str = va_arg(list, char *);
+					if (!str)
+						str = "(nil)";
+					printf("%s%s", sep, va_arg(list, char *));
+				break:
+				default:
+					i++;
+					continue;
 			}
+			sep = ",";
+			i++;
 		}
 	}
+	printf("\n");
+	va-_end(list);
 }
