@@ -18,7 +18,7 @@ void print_all(const char * const format, ...)
 
 	if (format)
 	{
-		while (format[i])
+		while (format && format[i])
 		{
 			switch (format[i])
 			{
@@ -36,7 +36,7 @@ void print_all(const char * const format, ...)
 					if (!str)
 						str = "(nil)";
 					printf("%s%s", sep, va_arg(list, char *));
-				break;
+					break;
 				default:
 					i++;
 					continue;
