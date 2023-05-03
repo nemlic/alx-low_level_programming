@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
-  *
-  *
-  *
+  *find_listint_loop - finds loop
+  *@head: where to search
+  *Return: header or NULL
   *
   */
 
